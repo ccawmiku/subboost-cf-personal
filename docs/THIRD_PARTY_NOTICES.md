@@ -10,6 +10,11 @@ Prisma, Radix UI, lucide-react, js-yaml, Peggy, Tailwind CSS, Zustand, and
 related build/test tools. Their individual licenses are recorded in
 `package-lock.json` and distributed with the package registry metadata.
 
+`vendor/braces` contains a private fork of the MIT-licensed `braces@3.0.3` by
+Jon Schlinkert and contributors, with parser and AST traversal depth guards for
+CVE-2026-93687. Its original license is preserved in `vendor/braces/LICENSE`;
+provenance, patch scope, tests, and removal criteria are in `vendor/braces/README.md`.
+
 ## UI Components
 
 Some shared UI primitives follow common shadcn/ui-style composition patterns and
